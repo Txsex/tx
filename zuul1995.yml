@@ -5,7 +5,7 @@ spring:
 spring:
   profiles: dev
   application:
-      name: microservice-zuul-gateway
+      name: zuul-1995
 server:
   port: 1995
 eureka:
@@ -13,7 +13,7 @@ eureka:
     service-url:
       defaultZone: http://localhost:7001/eureka
   instance:
-    instance-id: gateway-9527.com
+    instance-id: gateway-1995.com
     prefer-ip-address: true
 zuul:
   routes:
