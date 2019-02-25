@@ -1,7 +1,6 @@
 spring:
   profiles:
-    active:
-    - dev
+    active: dev
 ---
 server:
   port: 1995
@@ -18,7 +17,7 @@ eureka:
 zuul:
   routes:
     aigouEmployee.serviceId: employee-provider
-    aigouEmployee.path: /employee/**  # Æ¥Åä /xxx¿ªÍ·µÄÇëÇóÓ³Éäµ½user-provider·şÎñÉÏ
-  ignored-services: "*" #user-provider #ºöÂÔÖ±½ÓÊ¹ÓÃ·şÎñÃû·ÃÎÊ  *ºöÂÔËùÓĞµÄ
-  prefix: /aigou   # ·ÃÎÊÇ°×º
-profiles: dev #ÔËĞĞ»·¾³1
+    aigouEmployee.path: /employee/**  # åŒ¹é… /xxxå¼€å¤´çš„è¯·æ±‚æ˜ å°„åˆ°user-provideræœåŠ¡ä¸Š
+  ignored-services: "*" #user-provider #å¿½ç•¥ç›´æ¥ä½¿ç”¨æœåŠ¡åè®¿é—®  *å¿½ç•¥æ‰€æœ‰çš„
+  prefix: /aigou   # è®¿é—®å‰ç¼€
+profiles: dev #è¿è¡Œç¯å¢ƒ1
