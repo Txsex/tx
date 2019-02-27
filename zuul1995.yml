@@ -18,8 +18,8 @@ eureka:
 zuul:
   routes:
     yigouEmployee.serviceId: employee-provider
-    yigouEmployee.path: /employee/**  # Æ¥Åä /xxx¿ªÍ·µÄÇëÇóÓ³Éäµ½user-provider·şÎñÉÏ
+    yigouEmployee.path: /employee/**  # åŒ¹é… /xxxå¼€å¤´çš„è¯·æ±‚æ˜ å°„åˆ°user-provideræœåŠ¡ä¸Šï¿½ï¿½ï¿½ï¿½ï¿½
     yigouproduct.serviceId: product-provider
-    yigouproduct.path: /product/**  # Æ¥Åä /xxx¿ªÍ·µÄÇëÇóÓ³Éäµ½user-provider·şÎñÉÏ
-  ignored-services: "*" #user-provider #ºöÂÔÖ±½ÓÊ¹ÓÃ·şÎñÃû·ÃÎÊ  *ºöÂÔËùÓĞµÄ
-prefix: /yigou   # ·ÃÎÊÇ°×º
+    yigouproduct.path: /product/**  
+  ignored-services: "*" #user-provider #å¿½ç•¥ç›´æ¥ä½¿ç”¨æœåŠ¡åè®¿é—®  *å¿½ç•¥æ‰€æœ‰çš„ï¿½ï¿½ï¿½ï¿½ï¿½Ğµï¿½
+prefix: /yigou   #  è®¿é—®å‰ç¼€
