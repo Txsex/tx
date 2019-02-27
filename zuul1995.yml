@@ -22,4 +22,4 @@ zuul:
     yigouproduct.serviceId: product-provider
     yigouproduct.path: /product/** 
   ignored-services: "*" #user-provider #忽略直接使用服务名访问  *忽略所有的�����е�
-prefix: /yigou   #  访问前缀
+  prefix: /yigou   #  访问前缀
